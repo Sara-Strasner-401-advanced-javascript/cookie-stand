@@ -39,13 +39,9 @@ section {
 }
 
 footer{
-  bottom: 0;
-  height: 10%;
+  position: absolute;
+  bottom: 10px;
 } 
-
-footer>img{
-height: 20%;
-}
 
 /* * {
    border: black solid;
