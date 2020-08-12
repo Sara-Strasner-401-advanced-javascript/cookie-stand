@@ -11,8 +11,14 @@ body {
   margin: 20px;
  }
 
+
 section {
   padding: 20px 0px;
+}
+
+ul {
+  list-style: circle;
+  list-style-position: inside;
 }
 
  image {
@@ -23,11 +29,11 @@ section {
   z-index: -1;
  }
 
-.table {
+.table{
   background: rgba(76, 175, 80, 0.5);
   width:fit-content;
   padding: 10px;
-
+  font-family: 'Antic Slab', serif;
 }
 
  .data{
