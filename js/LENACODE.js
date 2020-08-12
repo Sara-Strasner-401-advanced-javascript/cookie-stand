@@ -1,3 +1,4 @@
+// DEMO Code from Class 7, to be used as a reference for Lab 7
 // we want to render the same table in the HTML but in JS
 
 // get a table element on the DOM by id - parent element
