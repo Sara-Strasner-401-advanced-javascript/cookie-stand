@@ -14,6 +14,7 @@ Sara Strasner
 ## Development Notes
 - JS script version 1.0 (Lab 6) is app.js, which renders a list of values
 - JS script version 2.0 (Lab 7) is constructor.js, which renders the values in a table
+- 'LENACODE' is the demo code from class 7 (written by Lena Eivy), which was referenced while writing constructor.js
 - sales.css is CSS specific to the sales.html page
 - style.css is CSS for the index.html page
 
