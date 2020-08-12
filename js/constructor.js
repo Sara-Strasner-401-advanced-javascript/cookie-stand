@@ -85,5 +85,16 @@ lima.renderTableList();
 
 // console.log(allStores);
 
+var form = document.getElementById('form')
 
+form.addEventListener('submit', function(event){
+  event.preventDefault();
+  var storeName = event.target.storename.value;
+  var minCust = event.target.mincustomer.value;
+  var maxCust = event.target.maxcustomer.value;
+  var avgCookie = event.target.avgcookie.value;
+  var storeName = new Location(storeName, minCust, maxCust, avgCookie);
+  storeName.cookiesPerHour();
+  storeName.renderTableList();
+});
 
