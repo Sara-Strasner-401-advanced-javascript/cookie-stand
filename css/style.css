@@ -1,54 +1,71 @@
 
 header {
   font-size: 200%;
-  font-family: 'Antic Slab', serif;
   padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 body {
   background-image: url(https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2467&q=80);
   color: white;
   margin: 20px;
- }
-
-
-section {
-  padding: 20px 0px;
-}
-
-ul {
-  list-style: circle;
-  list-style-position: inside;
-}
-
- image {
-  width: 10%;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index: -1;
- }
-
-.table{
-  background: rgba(76, 175, 80, 0.5);
-  width:fit-content;
-  padding: 10px;
   font-family: 'Antic Slab', serif;
-}
-
- .data{
-   font-family: Arial, Helvetica, sans-serif;
  }
 
- .text{
+ img {
+  max-width:100%;
+  max-height: 100%;
+}
+
+ .span{
+    padding: 10px;
+    width: 90%;
+}
+ 
+section {
+  display: inline-block;
+  width: 20%;
+  height: 75%;
+  vertical-align: top;
+  background: rgba(76, 175, 80, 0.8);
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Antic Slab', serif;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+ .hours{
+  padding: 10px 0;
+ }
+
+ .openDate{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  padding: 10px 0;
 }
 
 footer{
-  position: absolute;
+  padding: 10px;
   bottom: 10px;
 } 
 
+#shirt{
+  float: right;
+  padding: 2px;
+}
+
+#family{
+  float: left;
+  padding: 2px;
+}
 /* * {
    border: black solid;
  } */
+
+ #bold{
+   font-weight: bold;
+ }
