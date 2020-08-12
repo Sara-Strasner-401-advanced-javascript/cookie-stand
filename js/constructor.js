@@ -85,6 +85,8 @@ lima.renderTableList();
 
 // console.log(allStores);
 
+var form = document.getElementById('form')
+
 form.addEventListener('submit', function(event){
   event.preventDefault();
   var storeName = event.target.storename.value;
