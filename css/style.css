@@ -43,10 +43,18 @@ h2{
 
 .hours{
   padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightsalmon;
 }
 
- .openDate{
+.data{
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightsalmon;
+}
+
+.openDate{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightsteelblue;
   font-variant: small-caps;
   padding: 10px 0;
 }
